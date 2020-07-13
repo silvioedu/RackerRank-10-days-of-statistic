@@ -1,0 +1,24 @@
+Question: A bag contains  red marbles and  blue marbles.
+          Then,  marbles are drawn from the bag, at random, without replacement.
+          If the first marble drawn is red, what is the probability that the second marble is blue?
+
+Marbles:
+FR = first red
+FB = first blue
+SR = second red
+SB = second blue
+
+# Permutation
+total number of outcomes: 2P7 = 7! / (7-2)! = 7 * 6 = 42
+number of outcomes in event (FR and SB): 3 * 4 = 12
+
+probability:
+P(FR) = 3/7
+P(FR and SB) = 12 / 42 = 2/7
+
+# Conditional Probability
+P(SB | FR) = P(SB and FR) / P(FR)
+= P(FR and SB) / P(FR)
+= 2/7 / 3/7
+= 2/3
+

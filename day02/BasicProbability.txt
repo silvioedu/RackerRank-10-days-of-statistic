@@ -1,0 +1,9 @@
+Question: In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be at
+          most .
+
+Total Combinations............: 36
+Combinations GREATER than 9...: 06    -> (4,6) (6,4) (5,5) (6,5) (5,6) (6,6)
+Remain possibilities..........: 30
+
+Solution......................: 30/36
+(simplifying by 5)............:  5/6
